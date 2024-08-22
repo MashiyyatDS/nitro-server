@@ -4,4 +4,5 @@ export default defineNitroConfig({
 	experimental: {
 		database: true,
 	},
+	preset: 'netlify-edge',
 })
