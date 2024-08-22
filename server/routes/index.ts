@@ -12,5 +12,6 @@ export default eventHandler(async (event) => {
 	//return 'Nitro Server Success'
 	return {
 		message: 'Success',
+		data: event.node.req.headers,
 	}
 })
